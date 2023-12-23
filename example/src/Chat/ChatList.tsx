@@ -15,6 +15,7 @@ interface Props extends ViewProps {
   intialIndex?: number;
   onStartReached?: () => void;
   onEndReached?: () => void;
+  style: ViewProps;
 }
 
 export const ChatListView = React.memo(
